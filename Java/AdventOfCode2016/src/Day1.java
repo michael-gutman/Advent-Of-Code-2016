@@ -10,7 +10,7 @@ public class Day1 {
 		int dis;
 		char turn = ' ';
 		for (int i=0;i<inputArr.length;i++){
-			dis = Character.getNumericValue(inputArr[i].charAt(1));
+			dis = Integer.parseInt(inputArr[i].substring(1));
 			turn = inputArr[i].charAt(0);
 			switch(turn) {
 			case 'R':
