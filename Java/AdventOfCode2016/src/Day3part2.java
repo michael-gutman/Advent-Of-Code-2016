@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class day3part2 {
+public class Day3part2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		String input = new Scanner(new File("src/day3in")).useDelimiter("\\Z").next();

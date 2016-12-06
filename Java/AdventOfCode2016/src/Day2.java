@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class day2 {
+public class Day2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		String input = /*"ULL\nRRDDD\nLURDL\nUUUUD";//*/new Scanner(new File("src/day2in")).useDelimiter("\\Z").next();

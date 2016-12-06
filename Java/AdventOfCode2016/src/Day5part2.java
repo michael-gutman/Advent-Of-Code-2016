@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class day5part2 {
+public class Day5part2 {
 
 	public static void main(String[] args) throws NoSuchAlgorithmException {
 		String doorID = "ffykfhsq";
